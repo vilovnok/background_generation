@@ -24,4 +24,3 @@ pip install git+https://github.com/sberbank-ai/Real-ESRGAN.git
 gdown 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
 unzip weights.zip -d weights
 ```
-

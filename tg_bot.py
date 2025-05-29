@@ -30,7 +30,7 @@ CHOOSE_LOCATION, CHOOSE_COUNT, UPLOAD_IMAGE = range(3)
 executor = ThreadPoolExecutor()
 
 def temp_func(img: Image.Image, results_count: int, progress_callback, generation_location="all"):
-    test_img = "test_imgs/handled_chair.webp"
+    test_img = "images/sofa.webp"
     for i in range(20):
         time.sleep(1)
         progress_callback(i + 1, 20)
